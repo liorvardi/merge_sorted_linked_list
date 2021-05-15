@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="c7cb420a-0ee2-475b-81ea-e8c565db15d4" name="csl3.cs.technion.ac.il (project level)">
-        <fileTransfer rootFolder="/home/lior.vardi/" accessType="SFTP" host="csl3.cs.technion.ac.il" port="22" sshConfigId="4c69ed4a-2239-46e6-b99d-4965174b2bbc" sshConfig="lior.vardi@csl3.cs.technion.ac.il:22 password">
+      <webServer id="3cd15c3a-4964-44e9-be49-3c6d53ec74dd" name="csl3">
+        <fileTransfer rootFolder="/home/lior.vardi" accessType="SFTP" host="csl3.cs.technion.ac.il" port="22" sshConfigId="4c69ed4a-2239-46e6-b99d-4965174b2bbc" sshConfig="lior.vardi@csl3.cs.technion.ac.il:22 password">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>

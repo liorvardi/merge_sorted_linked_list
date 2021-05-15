@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="csl3.cs.technion.ac.il" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" serverName="csl3" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
-      <paths name="csl3.cs.technion.ac.il">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="csl3.cs.technion.ac.il (project level)">
+      <paths name="csl3">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
