@@ -116,24 +116,28 @@ int main() {
     Node first2 = list2;
     list1->x = 4;
     list2->x = 2;
-    for(int i = 0; i < 5; i++) {
+    /*for(int i = 0; i < 5; i++) {
         list1->next = malloc(sizeof(*list1));
         list2->next = malloc(sizeof(struct node_t));
         list1->next->x=list1->x + 1;
         list2->next->x = list2->x +2;
-        if(i<4){
-            list1 = list1->next;
-            list2 = list2->next;
-        }
-    }
+        list1 = list1->next;
+        list2 = list2->next;
+    }*/
+    list1->next = malloc(sizeof(struct node_t));
+    list2->next = malloc(sizeof(struct node_t));
+    list1 = list1->next;
+    list2 = list2->next;
+    list1->x = 10;
+    list2->x = 200;
     list1->next = list2->next = NULL;
     printList(first1);
     printList(first2);
     ErrorCode error;
     Node merged = mergeSortedLists(first1, first2, &error);
     printList(merged);
-    destroyList(list1);
-    destroyList(list2);
+    destroyList(first1);
+    destroyList(first2);
     destroyList(merged);
     return 0;
 }
