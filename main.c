@@ -107,6 +107,8 @@ void printList(Node list){
     }
     printf("\n");
 }
+
+
 int main() {
     Node list1 = malloc(sizeof(struct node_t));
     Node list2 = malloc(sizeof(struct node_t));
@@ -130,5 +132,8 @@ int main() {
     ErrorCode error;
     Node merged = mergeSortedLists(first1, first2, &error);
     printList(merged);
+    destroyList(list1);
+    destroyList(list2);
+    destroyList(merged);
     return 0;
 }
